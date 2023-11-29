@@ -1,4 +1,4 @@
-return{
+return {
     base00 = 'none',
     base01 = '#32302f',
     base02 = '#504945',
