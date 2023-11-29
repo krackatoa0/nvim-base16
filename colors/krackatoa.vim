@@ -2,8 +2,7 @@
 
 hi clear
 let g:colors_name = 'plum16'
-local colorscheme = require('colorscheme')
-colorscheme.setup({
+lua require('base16-colorscheme').setup({
     base00 = 'none',
     base01 = '#32302f',
     base02 = '#504945',
