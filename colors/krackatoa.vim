@@ -1,6 +1,7 @@
 -- This is a comment
 
-
+hi clear
+let g:colors_name = 'plum16'
 local colorscheme = require('colorscheme')
 colorscheme.setup({
     base00 = 'none',
