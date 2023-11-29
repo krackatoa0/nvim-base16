@@ -440,7 +440,7 @@ function M.setup(colors, config)
     hi.User8             = { guifg = M.colors.base00, guibg = M.colors.base02, gui = 'none', guisp = nil }
     hi.User9             = { guifg = M.colors.base00, guibg = M.colors.base02, gui = 'none', guisp = nil }
 
-    hi.TreesitterContext = { guifg = nil, guibg = M.colors.base01, gui = 'italic', guisp = nil }
+    hi.TreesitterContext = { guifg = nil, guibg = M.colors.base01, gui = 'none', guisp = nil }
 
     if M.config.telescope then
         if not M.config.telescope_borders and hex_re:match_str(M.colors.base00) and hex_re:match_str(M.colors.base01) and
