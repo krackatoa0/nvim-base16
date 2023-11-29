@@ -1,5 +1,3 @@
--- This is a comment
-
 hi clear
 let g:colors_name = 'plum16'
 lua require('base16-colorscheme').setup({
